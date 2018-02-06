@@ -8,10 +8,6 @@ namespace LabBonus14_Polymorphism
 {
     class GameCharacter
     {
-        private string name;
-        private int strength;
-        private int intelligence;
-
         public string Name { set; get; }
         public int Strength { set; get; }
         public int Intelligence { set; get; }

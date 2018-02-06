@@ -8,8 +8,6 @@ namespace LabBonus14_Polymorphism
 {
     class MagicUsingCharacter:GameCharacter
     {
-        private int magicalEnergy;
-
         public int MagicalEnergy { set; get; }
 
         public MagicUsingCharacter(string charName, int charStrength, int charIntel, int wizEnergy) : base(charName, charStrength, charIntel)

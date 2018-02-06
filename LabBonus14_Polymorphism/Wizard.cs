@@ -8,8 +8,6 @@ namespace LabBonus14_Polymorphism
 {
     class Wizard:MagicUsingCharacter
     {
-        private int spellNumber;
-
         public int SpellNumber { set; get; }
 
         public Wizard(string charName, int charStrength, int charIntel, int wizEnergy, int wizSpell) : base(charName, charStrength, charIntel, wizEnergy)

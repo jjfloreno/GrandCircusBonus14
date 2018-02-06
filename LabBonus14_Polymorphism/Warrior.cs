@@ -8,8 +8,6 @@ namespace LabBonus14_Polymorphism
 {
     class Warrior:GameCharacter
     {
-        private string weaponType;
-
         public string WeaponType { set; get; }
 
         public Warrior(string charName, int charStrength, int charIntel, string charWeapon):base(charName, charStrength, charIntel)
